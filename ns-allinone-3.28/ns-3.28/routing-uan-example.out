@@ -1,0 +1,485 @@
+Waf: Entering directory `/home/lch/ns-3/ns-allinone-3.28/ns-3.28/build'
+Waf: Leaving directory `/home/lch/ns-3/ns-allinone-3.28/ns-3.28/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.028s)
+Create Node
+channel model
+Position of sink: 50:4:4
+Add Internet Stack
+Assign IP Address
+Set ARP Timeout
+Set static Routing
+DataApplication:DataApplication(0xad35a0)
+DataApplication:SetDataSize(0xad35a0, 1000)
+DataApplication:SetFill(0xad35a0, "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcde")
+send app
+PacketSink:PacketSink(0xad3bb0)
+recv app
+Enable tracing
+PacketSink:StartApplication(0xad3bb0)
+DataApplication:StartApplication(0xad35a0)
+DataApplication:ScheduleTransmit(0xad35a0, +0.0ns)
+DataApplication:Send(0xad35a0)
+DataApplication:ScheduleTransmit(0xad35a0, +25937609825.0ns)
+UanMacPureAloha:Enqueue(0xabe220)
+2.108 MAC 0 Queueing packet for 255
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 2.23613 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 2.24144 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 2.27786 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xac3160)
+2.27786 MAC 4 Queueing packet for 0
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 2.28016 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 2.38319 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 2.44452 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 2.44474 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 2.44771 Receiving packet from 4 For 0
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xabe220)
+2.44771 MAC 0 Queueing packet for 4
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 3.05584 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 3.06115 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 3.09757 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+ 3.09757 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 3.09987 Receiving packet from 0 For 4
+UanMacPureAloha:Enqueue(0xac3160)
+3.10057 MAC 4 Queueing packet for 255
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 3.2059 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xac23b0)
+3.2059 MAC 2 Queueing packet for 4
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 3.26724 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 3.26745 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 3.27043 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 3.31124 Receiving packet from 2 For 4
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xac3160)
+3.31124 MAC 4 Queueing packet for 2
+ send real data!
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 3.37257 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 3.37278 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 3.37806 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 3.89657 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 3.89657s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 110 bytes
+ 3.89657 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 3.9579 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 3.95812 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 3.96109 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 4.5349 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 4.59624 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 4.59645 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 4.59943 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 5.3339 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 5.39524 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 5.39545 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 5.40073 Receiving packet from 2 For 4
+DataApplication:Send(0xad35a0)
+UanMacPureAloha:Enqueue(0xabe220)
+28.0376 MAC 0 Queueing packet for 4
+ send real data!
+DataApplication:ScheduleTransmit(0xad35a0, +7900429672.0ns)
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 28.6457 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 28.651 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 28.6875 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+UanMacPureAloha:Enqueue(0xac3160)
+28.6875 MAC 4 Queueing packet for 2
+ send real data!
+ 28.6875 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 28.6898 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 29.2728 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 29.2728s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 220 bytes
+ 29.2728 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 29.3341 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 29.3343 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 29.3373 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 30.1248 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 30.1861 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 30.1863 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 30.1893 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 30.7101 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 30.7715 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 30.7717 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 30.777 Receiving packet from 2 For 4
+DataApplication:Send(0xad35a0)
+UanMacPureAloha:Enqueue(0xabe220)
+35.938 MAC 0 Queueing packet for 4
+ send real data!
+DataApplication:ScheduleTransmit(0xad35a0, +7715551695.0ns)
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 36.5462 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 36.5515 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 36.5879 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+UanMacPureAloha:Enqueue(0xac3160)
+36.5879 MAC 4 Queueing packet for 2
+ send real data!
+ 36.5879 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 36.5902 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 37.1732 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 37.1732s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 330 bytes
+ 37.1732 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 37.2346 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 37.2348 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 37.2378 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 38.0252 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 38.0866 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 38.0868 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 38.0898 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 38.6106 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 38.6719 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 38.6721 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 38.6774 Receiving packet from 2 For 4
+DataApplication:Send(0xad35a0)
+UanMacPureAloha:Enqueue(0xabe220)
+43.6536 MAC 0 Queueing packet for 4
+ send real data!
+DataApplication:ScheduleTransmit(0xad35a0, +70728272165.0ns)
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 44.2617 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 44.267 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 44.3034 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+UanMacPureAloha:Enqueue(0xac3160)
+44.3034 MAC 4 Queueing packet for 2
+ send real data!
+ 44.3034 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 44.3058 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 44.8888 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 44.8888s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 440 bytes
+ 44.8888 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 44.9501 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 44.9503 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 44.9533 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 45.7408 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 45.8021 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 45.8023 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 45.8053 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 46.3261 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 46.3874 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 46.3877 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 46.3929 Receiving packet from 2 For 4
+DataApplication:Send(0xad35a0)
+UanMacPureAloha:Enqueue(0xabe220)
+114.382 MAC 0 Queueing packet for 4
+ send real data!
+DataApplication:ScheduleTransmit(0xad35a0, +70210465418.0ns)
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 114.99 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 114.995 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 115.032 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+UanMacPureAloha:Enqueue(0xac3160)
+115.032 MAC 4 Queueing packet for 2
+ send real data!
+ 115.032 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 115.034 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 115.617 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 115.617s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 550 bytes
+ 115.617 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 115.678 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 115.679 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 115.682 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 116.469 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 116.53 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 116.531 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 116.534 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 117.054 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 117.116 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 117.116 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 117.121 Receiving packet from 2 For 4
+DataApplication:Send(0xad35a0)
+DataApplication:ScheduleTransmit(0xad35a0, +84395629301.0ns)
+UanMacPureAloha:Enqueue(0xabe220)
+184.601 MAC 0 Queueing packet for 255
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 184.729 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 184.735 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 184.771 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xac3160)
+184.771 MAC 4 Queueing packet for 0
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 184.773 Receiving packet from 0 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 184.877 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 184.938 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 184.938 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 184.941 Receiving packet from 4 For 0
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xabe220)
+184.941 MAC 0 Queueing packet for 4
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 185.549 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 185.554 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 185.591 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+ 185.591 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:Enqueue(0xac3160)
+185.593 MAC 4 Queueing packet for 255
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 185.593 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 185.698 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xac23b0)
+185.698 MAC 2 Queueing packet for 4
+ send real data!
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 185.76 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 185.76 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 185.763 Receiving packet from 4 For 255
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 185.804 Receiving packet from 2 For 4
+UanMacPureAloha:: fowardup,protocol num:2054
+UanMacPureAloha:Enqueue(0xac3160)
+185.804 MAC 4 Queueing packet for 2
+ send real data!
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 185.865 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 185.865 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 185.87 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 186.389 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 186.389s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 660 bytes
+ 186.389 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 186.45 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 186.45 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 186.453 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 187.028 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 187.09 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 187.09 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 187.093 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 187.826 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 187.888 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 187.888 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 187.893 Receiving packet from 2 For 4
+DataApplication:Send(0xad35a0)
+UanMacPureAloha:Enqueue(0xabe220)
+268.988 MAC 0 Queueing packet for 4
+ send real data!
+DataApplication:ScheduleTransmit(0xad35a0, +130119465143.0ns)
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 269.596 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 269.601 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 269.638 Receiving packet from 0 For 4
+UanMacPureAloha:: fowardup,protocol num:2048
+UanMacPureAloha:Enqueue(0xac3160)
+269.638 MAC 4 Queueing packet for 2
+ send real data!
+ 269.638 UanMacPureAloha:: send ack from4 to 0
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 269.64 Receiving packet from 0 For 4
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 270.223 Receiving packet from 4 For 2
+UanMacPureAloha:: fowardup,protocol num:2048
+PacketSink:HandleRead(0xad3bb0, 0xad8c00)
+At time 270.223s packet sink received 110 bytes from 10.1.2.2 port 49153 total Rx 770 bytes
+ 270.223 UanMacPureAloha:: send ack from2 to 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 270.284 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 270.285 Receiving packet from 4 For 2
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 270.288 Receiving packet from 4 For 2
+UanMacPureAloha:sendpacket(0xac3160)
+UanMacPureAloha:RxPacketGood(0xac23b0)
+ 271.075 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 271.136 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 271.137 Receiving packet from 4 For 0
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 271.14 Receiving packet from 4 For 0
+UanMacPureAloha:: recv ack
+UanMacPureAloha:sendpacket(0xac23b0)
+UanMacPureAloha:RxPacketGood(0xac3160)
+ 271.66 Receiving packet from 2 For 4
+UanMacPureAloha:: recv ack
+UanMacPureAloha:RxPacketGood(0xabf660)
+ 271.722 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xac2a70)
+ 271.722 Receiving packet from 2 For 4
+UanMacPureAloha:RxPacketGood(0xabe220)
+ 271.727 Receiving packet from 2 For 4
+DataApplication:StopApplication(0xad35a0)
+PacketSink:StopApplication(0xad3bb0)
+DataApplication:DoDispose(0xad35a0)
+PacketSink:DoDispose(0xad3bb0)
+PacketSink:~PacketSink(0xad3bb0)
+DataApplication:~DataApplication(0xad35a0)

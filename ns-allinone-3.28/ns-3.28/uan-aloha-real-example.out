@@ -1,0 +1,291 @@
+Waf: Entering directory `/home/lch/ns-3/ns-allinone-3.28/ns-3.28/build'
+[1662/1854] Compiling src/uan/model/uan-phy-real-new.cc
+[1804/1854] Linking build/libns3.28-uan-debug.so
+[1830/1854] Linking build/libns3.28-netanim-debug.so
+[1831/1854] Linking build/libns3.28-test-debug.so
+[1835/1854] Linking build/scratch/uan-aloha-real-example
+[1835/1854] Linking build/scratch/routing-uan-example
+[1835/1854] Linking build/utils/ns3.28-test-runner-debug
+[1835/1854] Linking build/utils/ns3.28-print-introspected-doxygen-debug
+[1836/1854] Linking build/scratch/random-send-example
+[1837/1854] Linking build/scratch/sink-nc-example
+[1838/1854] Linking build/scratch/data-application-uan-example
+[1839/1854] Linking build/scratch/data-app-pure-aloha
+[1840/1854] Linking build/scratch/uan-ipv4-example
+[1841/1854] Linking build/scratch/data-application-example
+[1842/1854] Linking build/scratch/scratch-simulator
+[1843/1854] Linking build/scratch/subdir/subdir
+Waf: Leaving directory `/home/lch/ns-3/ns-allinone-3.28/ns-3.28/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.516s)
+SystemThread:Self()
+SystemThread:Equals(139948507985728)
+SystemThread:Equals(139948507985728)
+SystemThread:Equals(139948507985728)
+UanPhyRealNew
+SystemThread:Equals(139948507985728)
+UanPhyRealNew
+SystemThread:Equals(139948507985728)
+UanPhyRealNew
+SystemThread:Equals(139948507985728)
+SystemThread:Equals(139948507985728)
+SystemThread:Equals(139948507985728)
+SystemThread:Self()
+UanPhyRealNew:Init(0x8d8c40)
+UanPhyRealNew:setModemIP(0x8d8c40)
+UanPhyRealNew:ConnectModem(0x8d8c40)
+UanPhyRealNew:Init(0x8d9b50)
+UanPhyRealNew:setModemIP(0x8d9b50)
+UanPhyRealNew:ConnectModem(0x8d9b50)
+UanPhyRealNew:Init(0x8dad60)
+UanPhyRealNew:setModemIP(0x8dad60)
+UanPhyRealNew:ConnectModem(0x8dad60)
+UanPhyRealNew:StartRX(0x8d8c40)
+Modem ready to receive!
+SystemThread:SystemThread(0x8dc660, 0x7fff0d791d30)
+SystemThread:Start(0x8dc660)
+UanPhyRealNew:StartRX(SystemThread:DoRun(0x8d9b50)
+0x8dc660)
+recvDataThread!
+Modem ready to receive!
+SystemThread:SystemThread(0x8df6e0, 0x7fff0d791d30)
+SystemThread:Start(0x8df6e0)
+UanPhyRealNew:StartRX(0x8dad60)
+SystemThread:DoRun(0x8df6e0)
+recvDataThread!
+Modem ready to receive!
+SystemThread:SystemThread(0x8e0140, 0x7fff0d791d30)
+SystemThread:Start(0x8e0140)
+SystemThread:DoRun(0x8e0140)
+recvDataThread!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+SystemThread:SystemThread(0x869dc0, 0x7fff0d7917b0)
+SystemThread:Start(0x869dc0)
+SystemThread:DoRun(0x869dc0)
+send thread start!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+SystemThread:SystemThread(0x8e0a10, 0x7fff0d7917b0)
+SystemThread:Start(0x8e0a10)
+SystemThread:DoRun(0x8e0a10)
+send thread start!
+Modem turn to Tx state !
+
+Modem is transmitting packet
+Modem finishs Tx
+UanPhyRealNew:StartRX(0x8d8c40)
+Modem ready to receive!
+SystemThread:SystemThread(0x7f483c001a00, 0x7f4841b74cc0)
+SystemThread:~SystemThread(0x8dc660)
+SystemThread:Start(0x7f483c001a00)
+send thread finish!
+SystemThread:DoRun(0x7f483c001a00)
+recvDataThread!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+SystemThread:SystemThread(0x8e0b60, 0x7fff0d7917b0)
+SystemThread:~SystemThread(0x869dc0)
+SystemThread:Start(0x8e0b60)
+SystemThread:DoRun(0x8e0b60)
+send thread start!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+Get frame:framecnt:1 messageLen:239 tuborItertime:4
+UanPhyRealNew:StartRxPacket(0x8dad60)
+SystemThread:Equals(139948507985728)
+UanPhyRealNew:RxEndEvent(0x8dad60)
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-00: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+PHY 02-01-01: Transmitting packet
+send:packet size:223
+Channel is busy!Can not transmit!
+Interrupted 
